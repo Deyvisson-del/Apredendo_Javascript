@@ -1,10 +1,6 @@
-console.log("Digite o nome do seu jogador:");
-var nomedojogador = "Deyvisson";
+// Código em JavaScript
+const prompt = require('prompt-sync')();
 
-console.log("Bem vindo " + nomedojogador);
+const name = prompt('Digite o seu nome: ');
+console.log('Bem-vindo: ' + name);
 
-let name = prompt("Digite o nome do seu personagem:");
-
-// var number1 = 1;
-// var number2 = 1;
-// console.log(number1 + number2);
