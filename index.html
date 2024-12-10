@@ -4,46 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <style>
-        form {
-            display: inline;
-        }
-    </style>
-
-    <header>
-        <h1 style="text-align: center; margin: 0;">Apredendo Javascript</h1>
-        <h2 style="text-align: center; margin: 0;">com HTML é CSS</h2>
-    </header>
-
-    <script>
-        //Este comando está entrando em desuso
-        // document.write("<h1>Título teste</h1>")
-
-        //O equivalente a ele é esse abaixo
-        // const h1 = document.createElement("h1")
-        // h1.textContent="Título teste";
-        // document.body.appendChild(h1);
-
-        // var n1 = 9;
-        // var n2 = 9;
-        // var n3 = 9;
-
-        var media = (n1+n2+n3)/3;
-
-        function imc(altura, peso){
-            var resultado=peso/(altura*2);
-            return resultado;
-        };
-        
-
-        const h1 = document.createElement("h1")
-        h1.textContent="Resultado é "+Math.round(media);
-        document.body.appendChild(h1);
-    </script>
+    <div class="container">
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+    </div>
 </body>
+<script src="script.js"></script>
 
 </html>
